@@ -99,7 +99,8 @@ justify-content: space-between;
 .profile{
     background-color:lightcyan;
     width: 1000px;
-    height: 900px;
+    height: 850px;
+    border-radius: 40px;
     transform: rotate(-300);
     
 }
@@ -198,29 +199,37 @@ margin-bottom: 100px;
   .downloadNow{
     padding: 50px;
   }
-  #we-are-helping-customers{
+  .helpingPeople{
     text-align: center;
 }
-.know-more-button{
+.helpingPeople{
+    text-align: center;
+    font-size: 25px;
+}
+.helpingPeople a{
+    color: red;
+}
+.knowMoreButton{
     font-size: 30px;
     border-radius: 16px;
     background-color: rgb(2, 2, 61);
     color: white;
     padding: 10px;
 }
-.mobile-app-interface{
+.appInterface{
     margin-top: 15%;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif
 }
-.helping-customers{
+.helpingCustomers{
     @media (max-width: 768px){
         display: flex;
     }
-    background-color: rgb(252 231 239);;
-    border-radius: 0%;
 }
-.customer-globally{
+.globalCustomers img{
+    margin-left: -100px;
+}
+.globalCustomers{
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
