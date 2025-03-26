@@ -1,0 +1,316 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f5; 
+    overflow-x: hidden;
+}
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    gap:300px;
+    
+}
+nav{
+    text-align: center;
+
+}
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+    font-size: 25px;
+}
+.buttonContainer {
+    display: flex;
+    gap: 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+.logo{
+    margin-top: 5px;
+}
+.loginbutton {
+    padding:20px;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    width:110px;
+    font-size: 20px;
+}
+.signUpbutton {
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #d83da4; 
+    color: white;
+    cursor: pointer;
+    width:110px;
+    font-size: 20px;
+}
+.downloadApp{
+display: flex;
+justify-content: space-between;
+}
+.downloadButton{
+    background-color: black;
+    padding:25px;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    width:130px;
+    font-size: 20px;
+}
+.downloadbutton{
+    padding:25px;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    width:130px;
+    font-size: 20px;
+}
+.downloadApp h1{
+    font-size: 80px;
+    color: rgb(14, 13, 13);
+}
+.downloadApp p{
+    font-size: 30px;
+    color:grey;
+}
+.contactUs{
+    color:black;
+}
+.heading2{
+    color: red;
+}
+
+.profile{
+    background-color:lightcyan;
+    width: 1000px;
+    height: 900px;
+    transform: rotate(-300);
+    
+}
+.profile img{
+    width:100px;
+    border-radius: 200px;
+    height:90px;
+    
+}
+.profilepicture{
+    display: flex;
+    gap:100px;
+    
+}
+.moneytoPay{
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 15px;
+    
+
+}
+.technicalAssistant{
+    display: flex;
+    gap:150px;
+}
+hr{
+    width:1000px;
+    margin-left:5px;
+}
+.overlayImage img{
+width:300px;
+border-radius: 50px;
+margin-top: -1050px;
+margin-left:400px;
+height: 330px;
+
+}
+.partnerCompanies{
+    text-align: center;
+    font-size: 34px;
+    color: #4d4343;
+
+}
+.partnerIcons{
+display: flex;
+gap:40px;
+margin: 0 auto;
+align-items: center;
+justify-content: center;
+margin-bottom: 100px;
+}
+.partnerIcons img {
+    width: 200px; 
+    height: auto; 
+    margin: 0 10px; 
+}
+.companies{
+    text-align: center;
+    font-size: 40px;
+  }
+  .companies a{
+   color:red;
+  }
+  .ourCompany{
+    display: flex;
+    width: 1500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: 100px;
+  }
+  .downloads{
+    display: flex;
+    gap:200px;
+    font-size: 30px;
+  }
+  .usingGroup{
+    display: flex;
+    gap:200px;
+    font-size: 30px;
+  }
+  .ditInNumbers{
+    font-size: 25px;
+  }
+  .ditInNumbers a{
+    color:red;
+  }
+  .dashboard{
+    display: flex;
+    justify-content: space-between;
+  }
+  .dashboard img{
+    margin-right:70px;
+  }
+  .downloadNow{
+    padding: 50px;
+  }
+  #we-are-helping-customers{
+    text-align: center;
+}
+.know-more-button{
+    font-size: 30px;
+    border-radius: 16px;
+    background-color: rgb(2, 2, 61);
+    color: white;
+    padding: 10px;
+}
+.mobile-app-interface{
+    margin-top: 15%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.helping-customers{
+    @media (max-width: 768px){
+        display: flex;
+    }
+    background-color: rgb(252 231 239);;
+    border-radius: 0%;
+}
+.customer-globally{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.Testimony{
+    @media (max-width: 768px){
+        display: flex;
+    }
+}
+.witness{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    border: 2px;
+    border-radius: 2px;
+    border-color: red;
+}
+#testimony{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.availableUsers p{
+    font-size: 20px;
+}
+.availableUsers a{
+    color:rgb(24, 23, 23);
+}
+ .appleStoreButton{
+    margin-top: 25%;
+    margin-left: 20;
+    background-color: rgb(51, 48, 48);
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    width:150px;
+    font-size: 20px;
+ }
+ .users{
+    margin-right: 500px;
+ }
+ .dittiDownload img{
+    margin-left: 300px;
+ }
+ .playStoreButton{
+    margin-top: 25%;
+    margin-left: 20;
+    background-color: white;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    color:black;
+    cursor: pointer;
+    width:150px;
+    font-size: 20px;
+ }
+.dittiDownload{
+display: flex;
+justify-content: space-around;
+margin-top: 100px;
+}
+.footerContent h3{
+    padding-top: 1.5%;
+}
+.icons{
+    display: flex;
+    gap: 10%;
+    padding-left: 7%;
+    padding-right: 5%;
+    color: white;
+    background-color: rgb(16, 2, 54);
+}
+.footer{
+    border: 1px solid black;
+}
+.privacyPolicy{
+    display: flex;
+    gap: 25%;
+   padding: 15px;
+    color: white;
+    background-color: black;
+}
+.footer ul{
+    list-style: none;
+    padding: 40px;
+}
+.footer{
+    @media (max-width: 768px){
+        display: flex;
+    }
+}

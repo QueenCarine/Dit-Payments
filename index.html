@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dit Payments</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <header>
+    <div class="logo">
+        <img src="./images/dit.png"alt="logo">
+    </div>
+    <nav>
+        <ul>
+        <li><a href="#">Feature</a></li>
+        <li> <a href="#">About Us</a></li>
+        <li> <a href="#">Products</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Feedback</a></li>
+    </ul>
+    </nav>
+    <div class="buttonContainer">
+        <button class="loginbutton">Log in</button>
+        <button class="signUpbutton">Sign up</button>
+    </div>
+   </header> 
+   <div class="downloadApp">
+    <div class="downloadNow">
+        <h1>Improve The<br> Way <a class="heading2" href="#">You Charge</a> ;<br>With One Click</h1>
+        <p>Deski delivered blazing fast performance,<br>striking one solution</p>
+        <button class="downloadButton">
+            <i class="fa-brands fa-apple" style="color: #ebeff4;"></i>
+        </button>
+        <button class="downloadbutton">
+            <i class="fa-brands fa-google-play"></i>
+        </button>
+        <p>Different platform?<a class="contactUs"href="#">Contact Us</a></p>
+    </div>
+    <div>
+        <div class="profile">
+            <div class="profilepicture">
+              <img src="data:image/jpeg;base64,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" alt="Profile Picture">
+             <p class="moneytoPay">You received finr €600 and needs to be paid</p>
+            </div>
+            <h3>Roger Westervelt</h3>
+             <div class="technicalAssistant">
+                <div>
+                 <p>Technical assistant</p>
+                   <p>Oculus</p>
+                </div>
+             <div>
+                 <p>22</p>
+                 <p>Worked Days</p>
+             </div>
+             </div>
+             <hr>
+             <h1>€1500</h1>
+             <p>Monthly Salary</p>
+             <h1>€750</h1>
+             <p>Salary Available</p>
+         </div>
+         <div class="background"></div>
+        <div class="overlayImage">
+         <img src="./images/westervelt.jpeg">
+        </div>
+    </div>
+   </div>
+  <div class="partners">
+    <div class="partnerCompanies">
+        <p>Over <b>32K+ </b>software business growing with dit.io</p>
+       </div>
+       <div class="partnerIcons">
+        <img id="microsoftLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/1280px-Microsoft_logo_%282012%29.svg.png">
+        <img id="trelloLogo" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Trello_logo.svg/800px-Trello_logo.svg.png">
+        <img id="googleLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png">
+        <img id="dropboxLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Dropbox_logo_2017.svg/2560px-Dropbox_logo_2017.svg.png">
+        <img id="slackLogo" src="https://logos-world.net/wp-content/uploads/2020/10/Slack-Logo.png">
+       </div>
+       <div class="companies">
+        <h3>The <a href="#">Product</a> we work with</h3>
+        </div>
+        <div class="ourCompany">
+            <div>
+                <i class="fa-solid fa-star" ></i><br>
+            <h4>Easy Interface</h4>
+            <p>Phase sit amet do tris lorem sum is simply free</p>
+            </div>
+            <div>
+                <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/vertical-settings-mixer.png" alt="vertical-settings-mixer"/><br>
+                <h4>Secured Transfers</h4>
+                <p>Phase sit amet do tris lorem sum is simply free</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-feather"></i><br>
+                    <h4>24/7 Support</h4>
+                    <p>Phase sit amet do tris lorem sum is simply free</p>
+                    </div>
+                </div>
+               <div class="dashboard">
+                <div>
+                    <div class="ditInNumbers">
+                        <p>Okay,Let's see<a href="#">diti.io in numbers</a></p>
+                        <p>Phase sit amet do tris lorem sum is simply free</p>
+                        <div class="downloads">
+                            <div >
+                                <h1>50.4K</h1>
+                                <p>Downloads</p>
+                            </div>
+                            <div>
+                                <h1>20K</h1>
+                                <p>Active Users</p>
+                            </div>
+                        </div>
+                     <div class="usingGroup">
+                        <div>
+                            <h1>300+</h1>
+                            <p>Using Group</p>
+                        </div>
+                        <div>
+                            <h1>10K+</h1>
+                            <p>Subscribers</p>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/dashboard.png"alt="dashboard">
+                </div>
+               </div>
+
+               <p id="we-are-helping-people">We are helping customer<br>globally everytime</p>
+               <section class="helping-customers">
+                   <div class="customer-globally">
+                       <div class="mobile-app-interface">
+                           <img src="images/phone-icon.png">
+                           <p>Mobile App Interface<br><br>Deski deliverd blazing fast perform striking<br> word solution our
+                               company will be best<br>ever soon in the</p>
+                           <button class="know-more-button">Know More</button>
+                       </div>
+                       <div>
+                           <img src="images/globally-image.png">
+                       </div>
+                   </div>
+               </section>
+               <br><br>
+                   <h1 id="testimony">Some Words From Our Clients</h1>
+               <section class="Testimony">
+                   <div class="witness">
+                       <div>
+                           <i class="fa-solid fa-arrow-left"></i>
+                           <img src="./images/test.png">
+                           <i class="fa-regular fa-star"></i>5.0
+                           <div>
+                               <p>Edwin Zohir<br>businessman</p>
+                               <br>
+                               <p>We make all payments easier and simpler. Receiver and<br>send payment funds without cash.Dpay
+                                   makes moving<br>money as simple.. jrjer hnf ke cjrf fjvfoi40owef eroikfbv</p>
+                           </div>
+                       </div>
+                       <div>
+                           <img src="./images/testimony.png">
+                           <i class="fa-regular fa-star"></i>5.0
+                           <p>Jecson Mokbul<br>Businessman<br><br>we make all payments easier and simpler.Receive
+                               and<br>send payment</p>
+                           <div><i class="fa-solid fa-arrow-right"></i>
+                           </div>
+                       </div>
+                   </div>
+               </section>
+               <section>
+                   <div class="dittiDownload">
+                       <div>
+                           <img src="./images/users.png"alt="users">
+                       </div>
+                       <div class="users">
+                        <div class="availableUsers">
+                            <p>Over 50,000+ Users<br><br>Download<br>diti.o Mobile App</p>
+                        <div class="appButtons">
+                            <button class="appleStoreButton"><i class="fa-brands fa-apple"></i>App store</button>
+                            <button class="playStoreButton"><i class="fa-brands fa-google-play"></i>Play store</button>
+                            <p>Different platform?<a href="#">Contact Us</a></p>
+                        </div>
+                       </div>
+                    </div>
+                   </div>
+               </section>
+           </main>
+       </header>
+       <footer class="footer">
+           <div class="footerContent">
+            <div class="icons">
+                <div>
+                    <h3>dit.io</h3>
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                </div>
+                <ul>
+                    <h4>Our Products</h4>
+                    <li>Features</li>
+                    <li>Smart savings</li>
+                    <li>Investing</li>
+                    <li>Personal insurance</li>
+                    <li>Apps & downloads</li>
+                </ul>
+                <ul>
+                    <h4>Top Features</h4>
+                    <li>Instant access</li>
+                    <li>Finance education</li>
+                    <li>Smart savings</li>
+                    <li>Monthly budgeting<li>
+                    <li>Apps & integrations</li>
+                </ul>
+                <ul>
+                    <h4>Company</h4>
+                    <li>About us</li>
+                    <li>Contact</li>
+                    <li>Career</li>
+                    <li>Terms of service</li>
+                    <li>Privacy policy</li>
+                </ul>
+                <ul>
+                    <h4>Resources</h4>
+                    <li>Blog</li>
+                    <li>Help & support</li>
+                    <li>Customer stories</li>
+                    <li>Legal</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            </div>
+            <div class="privacyPolicy">
+                <i class="fa-regular fa-copyright"></i>
+                <p>Copyright @diti.io 2022. All rights reserved.</p>
+                <p>Terms and conditions</p>
+                <p>Privacy policy</p>
+            </div>
+       </footer>
+</body>
+</html>
