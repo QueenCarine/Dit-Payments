@@ -286,6 +286,17 @@ margin-top: 100px;
 }
 .footerContent h3{
     padding-top: 1.5%;
+    color: white;
+}
+.footerContent{
+    display:flex;
+    gap:10%;
+    padding-left: 7%;
+    padding-right: 5%;
+    color: white;
+    background-color: rgb(16, 2, 54);
+
+
 }
 .icons{
     display: flex;
@@ -294,6 +305,9 @@ margin-top: 100px;
     padding-right: 5%;
     color: white;
     background-color: rgb(16, 2, 54);
+    justify-content: center;
+    align-items: right;
+    gap: 20px;
 }
 .footer{
     border: 1px solid black;
@@ -304,10 +318,19 @@ margin-top: 100px;
    padding: 15px;
     color: white;
     background-color: black;
+    text-decoration: none;
 }
 .footer ul{
     list-style: none;
     padding: 40px;
+}
+.footer ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 15px; 
+}
+.footer ul li a:hover {
+    color: lightgray; 
 }
 .footer{
     @media (max-width: 768px){
